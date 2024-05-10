@@ -12,7 +12,12 @@ int main(){
     cout<<"Enter the integar value of the pointer :";
     cin>>num;
 
-    int *x = &num;
+    int *x;
+    x = &num;
+
+    
+
+
     cout<<"\nThe address of num is "<<num<<endl;
     cout<<"The value of num is "<<*x<<endl;
     cout<<"The address of x is "<<&num<<endl;

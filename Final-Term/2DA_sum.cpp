@@ -13,6 +13,7 @@ int main() {
 
     int MATRIX[row][col];
     int MATRIX1[row][col];
+    
     int MATRIX_MUL[row][col];
     int MATRIX_DIV[row][col];
 

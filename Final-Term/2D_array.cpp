@@ -9,9 +9,9 @@ int main() {
 
     int row, col;
     cout << "Enter the number of rows of the matrix: ";
-    cin >> row;
+    cin >> row;//2
     cout << "Enter the number of columns of the matrix: ";
-    cin >> col;
+    cin >> col;//3
 
     int MATRIX[row][col];
     int MATRIX2[row][col];       
@@ -19,7 +19,7 @@ int main() {
 
     cout<<"THE 1ST MATRIX -->\n";
 
-    for(int loop_row = 0; loop_row < row; loop_row++){
+    for(int loop_row = 1; loop_row < row; loop_row++){
         for(int loop_col = 0; loop_col < col; loop_col++){
             cout<<"Enter the Array elements : ["<<loop_row<<"]["<<loop_col<<"]: ";
             cin >> MATRIX[loop_row][loop_col]; // Store user input into MATRIX

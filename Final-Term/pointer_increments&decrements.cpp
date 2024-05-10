@@ -17,16 +17,16 @@ int main() {
     
 
     cout << "Initial value of num: " << *ptr <<endl;
-        (*ptr)++; 
+    cout<<  (*ptr)++; 
     cout << "After incrementing, num is: " << *ptr <<endl;
 
-        (*ptr)--; 
+    cout<< (*ptr)--; 
     cout << "After decrementing, num is: " << *ptr <<endl;
 
-        ++(*ptr);
+    ++(*ptr);
     cout << "After pre-incrementing, num is: " << *ptr <<endl;
 
-        --(*ptr);
+    --(*ptr);
     cout << "After pre-decrementing, num is: " << *ptr <<endl;
 
         return 0;
